@@ -22,6 +22,8 @@ const AppRouter = () => {
         <Route path="/java" element={<Java />} />
         <Route path="/springboot" element={<Springboot />} />
         <Route path="/microservices" element={<Microservices />} />
+         <Route path="*" element={<Home />} />
+
     </Routes>
     )
 

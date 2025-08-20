@@ -11,7 +11,7 @@ const Home = () => {
             <div className='thumb-card' key={index}> 
             <img src={item.src} alt={item.heading} onClick={()=>navigate(`${item.navigate}`)} />
             <h2>{item.heading}</h2>
-            <p>{item.desrciption}</p>
+            <p>{item.description}</p>
             </div>
         ))}
        </div>
