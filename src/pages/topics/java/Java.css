@@ -1,0 +1,23 @@
+.java-home {
+  display: flex;
+  height: 100vh;
+  background-color: rgb(30, 112, 228);
+}
+.side-menu {
+  width: 200px;
+  background-color: rgb(9, 69, 232);
+  padding-top: 5px;
+  border-radius: 5px;
+}
+
+.side-menu button {
+  display: flex;
+  color: aliceblue;
+  height: 25px;
+  flex-direction: column;
+  width: 100%;
+  background: skyblue;
+  border-radius: 5px;
+  border: solid 0.5px white;
+  padding-top: 5px;
+}
